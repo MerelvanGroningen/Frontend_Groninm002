@@ -1,0 +1,218 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    font-size: 0.8em;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+body > header {
+    background-color: #FFB34F;
+    text-align: center;
+    flex-direction: row;
+    width: 100%;
+}
+body > header > h1 {
+    color: #FFF;
+    margin-bottom: 0.2em;
+    text-shadow: 0px 0px 10px rgba(125, 125, 125, 0.5);
+}
+body > header > p {
+    color: #FFF;
+    font-size: 0.6em;
+    margin-top: 0.2em;
+}
+nav ul {
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 0.9rem;
+    border-top-left-radius: 0.9rem;
+    border-top-right-radius: 0.9rem;
+    border-bottom-right-radius: 0.9rem;
+    border-bottom-left-radius: 0.9rem;
+    margin: 0.5rem;
+    padding: 0.7em;
+    transition: background 0.3s ease-out 0s;
+}
+nav ul li {
+    display: inline-block;
+    padding-right: 2em;
+}
+nav ul li a {
+    color: black;
+    font-size: 1.1em;
+    font-family: "Letter Gothic Std", sans-serif;
+    text-decoration: none;
+    text-shadow: 0px 0px 10px rgba(125, 125, 125, 0.5);
+    text-transform: uppercase;
+}
+nav ul li a:hover {
+    color: #FFF;
+}
+a {
+    color: black;
+}
+a:hover {
+    color: #FFB34F;
+    transition: all 0.4s ease-in-out;
+}
+body header > form {
+    font-family: "Letter Gothic Std", sans-serif;
+    padding-right: 2em;
+    text-align: right;
+}
+form button {
+    border: solid;
+    border-width: thin;
+    border-radius: 0.4rem;
+    font-family: "Letter Gothic Std", sans-serif;
+}
+button:hover {
+    transform: rotate(9deg);
+    transition: all 0.4s ease-in-out;
+
+}
+.to-profile {
+    font-size: 0.5em;
+    text-align: right;
+    padding-right: 4em;
+    padding-top: 0.5em;
+}
+.to-profile a:hover {
+    color: #FFF;
+}
+main {
+    flex-direction: row;
+    width: 50%;
+}
+.related {
+    flex-direction: row;
+    width: 25%;
+}
+.related a:hover {
+    color: #FFF;
+}
+.related h2 {
+    color: #FFB34F;
+}
+.related h3 {
+    color: #FFF;
+}
+.related article:nth-child(2) {
+    background-color: #FFB34F;
+    box-shadow: 0px 0px 5px rgba(125, 125, 125, 0.5);
+    margin-right: 2em;
+    padding-bottom: 0.4em;
+    padding-left: 0.6em;
+    padding-right: 0.2em;
+    padding-top: 0.4em;
+}
+.related article:nth-child(3) {
+    background-color: #FFB34F;
+    box-shadow: 0px 0px 10px rgba(125, 125, 125, 0.5);
+    margin-right: 2em;
+    margin-top: 0.5em;
+    padding-bottom: 0.4em;
+    padding-left: 0.6em;
+    padding-right: 0.2em;
+    padding-top: 0.4em;
+}
+.related article:nth-child(4) {
+    background-color: #FFB34F;
+    box-shadow: 0px 0px 10px rgba(125, 125, 125, 0.5);
+    margin-right: 2em;
+    margin-top: 0.5em;
+    padding-bottom: 0.4em;
+    padding-left: 0.6em;
+    padding-right: 0.2em;
+    padding-top: 0.4em;
+}
+.related article:nth-child(5) {
+    background-color: #FFB34F;
+    box-shadow: 0px 0px 10px rgba(125, 125, 125, 0.5);
+    margin-right: 2em;
+    margin-top: 0.5em;
+    padding-bottom: 0.4em;
+    padding-left: 0.6em;
+    padding-right: 0.2em;
+    padding-top: 0.4em;
+}
+.related article:last-child {
+    background-color: #FFB34F;
+    box-shadow: 0px 0px 10px rgba(125, 125, 125, 0.5);
+    margin-right: 2em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    padding-bottom: 0.4em;
+    padding-left: 0.6em;
+    padding-right: 0.2em;
+    padding-top: 0.4em;
+}
+aside {
+    flex-direction: row;
+    width: 25%;
+}
+body > footer {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    background-color: #FFB34F;
+}
+footer h2 {
+    color: #FFF;
+}
+#sitemap {
+    flex-direction: row;
+    width: 25%;
+}
+#sitemap ul li {
+    list-style: none;
+}
+#sitemap a {
+    text-decoration: none;
+}
+#contact {
+    flex-direction: row;
+    width: 25%;
+}
+#search {
+    flex-direction: row;
+    width: 25%;
+}
+#about {
+    flex-direction: row;
+    width: 25%;
+}
+#credits {
+    background-color: #FFF;
+    font-family: "Letter Gothic Std", sans-serif;
+    text-align: center;
+    width: 100%;
+}
+#credits h2 {
+    color: black;
+    font-size: 1em;
+    margin-bottom: 0.2em;
+    text-transform: uppercase;
+}
+#credits p {
+    font-size: 0.6em;
+    margin-top: 0.2em;
+}
+#feedback {
+    background-color: #FFF;
+    font-family: "Letter Gothic Std", sans-serif;
+    margin: 0;
+    padding-bottom: 1em;
+    text-align: center;
+    width: 100%;
+}
+#feedback a {
+    text-decoration: none;
+    color: #FFB34F;
+}
+
+
+
+
