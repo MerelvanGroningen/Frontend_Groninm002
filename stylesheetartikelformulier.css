@@ -16,13 +16,13 @@ body > header {
 }
 body > header > h1 {
     color: #FFF;
-    margin-bottom: 0.2em;
+    margin-bottom: 0.2rem;
     text-shadow: 0px 0px 10px rgba(125, 125, 125, 0.5);
 }
 body > header > p {
     color: #FFF;
     font-size: 0.6em;
-    margin-top: 0.2em;
+    margin-top: 0.2rem;
 }
 nav ul {
     background: rgba(255, 255, 255, 0.3);
@@ -32,12 +32,12 @@ nav ul {
     border-bottom-right-radius: 0.9rem;
     border-bottom-left-radius: 0.9rem;
     margin: 0.5rem;
-    padding: 0.7em;
+    padding: 0.7rem;
     transition: background 0.3s ease-out 0s;
 }
 nav ul li {
     display: inline-block;
-    padding-right: 2em;
+    padding-right: 2rem;
 }
 nav ul li a {
     color: black;
@@ -59,7 +59,7 @@ a:hover {
 }
 body header > form {
     font-family: "Letter Gothic Std", sans-serif;
-    padding-right: 2em;
+    padding-right: 2rem;
     text-align: right;
 }
 form button {
@@ -71,19 +71,22 @@ form button {
 button:hover {
     transform: rotate(9deg);
     transition: all 0.4s ease-in-out;
-
+}
+input[type="search"] {
+    font-family: "Letter Gothic Std", sans-serif;
 }
 .to-profile {
     font-size: 0.5em;
     text-align: right;
-    padding-right: 4em;
-    padding-top: 0.5em;
+    padding-right: 4rem;
+    padding-top: 0.5rem;
 }
 .to-profile a:hover {
     color: #FFF;
 }
 main {
     flex-direction: row;
+    margin-left: 0.5rem;
     width: 50%;
 }
 .related {
@@ -102,56 +105,56 @@ main {
 .related article:nth-child(2) {
     background-color: #FFB34F;
     box-shadow: 0px 0px 5px rgba(125, 125, 125, 0.5);
-    margin-right: 2em;
-    padding-bottom: 0.4em;
-    padding-left: 0.6em;
-    padding-right: 0.2em;
-    padding-top: 0.4em;
+    margin-right: 2rem;
+    padding-bottom: 0.4rem;
+    padding-left: 0.6rem;
+    padding-right: 0.2rem;
+    padding-top: 0.4rem;
 }
 .related article:nth-child(3) {
     background-color: #FFB34F;
     box-shadow: 0px 0px 10px rgba(125, 125, 125, 0.5);
-    margin-right: 2em;
-    margin-top: 0.5em;
-    padding-bottom: 0.4em;
-    padding-left: 0.6em;
-    padding-right: 0.2em;
-    padding-top: 0.4em;
+    margin-right: 2rem;
+    margin-top: 0.5rem;
+    padding-bottom: 0.4rem;
+    padding-left: 0.6rem;
+    padding-right: 0.2rem;
+    padding-top: 0.4rem;
 }
 .related article:nth-child(4) {
     background-color: #FFB34F;
     box-shadow: 0px 0px 10px rgba(125, 125, 125, 0.5);
-    margin-right: 2em;
-    margin-top: 0.5em;
-    padding-bottom: 0.4em;
-    padding-left: 0.6em;
-    padding-right: 0.2em;
-    padding-top: 0.4em;
+    margin-right: 2rem;
+    margin-top: 0.5rem;
+    padding-bottom: 0.4rem;
+    padding-left: 0.6rem;
+    padding-right: 0.2rem;
+    padding-top: 0.4rem;
 }
 .related article:nth-child(5) {
     background-color: #FFB34F;
     box-shadow: 0px 0px 10px rgba(125, 125, 125, 0.5);
-    margin-right: 2em;
-    margin-top: 0.5em;
-    padding-bottom: 0.4em;
-    padding-left: 0.6em;
-    padding-right: 0.2em;
-    padding-top: 0.4em;
+    margin-right: 2rem;
+    margin-top: 0.5rem;
+    padding-bottom: 0.4rem;
+    padding-left: 0.6rem;
+    padding-right: 0.2rem;
+    padding-top: 0.4rem;
 }
 .related article:last-child {
     background-color: #FFB34F;
     box-shadow: 0px 0px 10px rgba(125, 125, 125, 0.5);
-    margin-right: 2em;
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
-    padding-bottom: 0.4em;
-    padding-left: 0.6em;
-    padding-right: 0.2em;
-    padding-top: 0.4em;
+    margin-right: 2rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    padding-bottom: 0.4rem;
+    padding-left: 0.6rem;
+    padding-right: 0.2rem;
+    padding-top: 0.4rem;
 }
 aside {
     flex-direction: row;
-    width: 25%;
+    width: 23%;
 }
 body > footer {
     display: flex;
@@ -193,18 +196,18 @@ footer h2 {
 #credits h2 {
     color: black;
     font-size: 1em;
-    margin-bottom: 0.2em;
+    margin-bottom: 0.2rem;
     text-transform: uppercase;
 }
 #credits p {
     font-size: 0.6em;
-    margin-top: 0.2em;
+    margin-top: 0.2rem;
 }
 #feedback {
     background-color: #FFF;
     font-family: "Letter Gothic Std", sans-serif;
     margin: 0;
-    padding-bottom: 1em;
+    padding-bottom: 1rem;
     text-align: center;
     width: 100%;
 }
@@ -212,7 +215,14 @@ footer h2 {
     text-decoration: none;
     color: #FFB34F;
 }
-
+@media screen and (max-width: 750px){
+    body {
+        display: inline-block;
+    }
+    body > header {
+        width: 100%;
+    }
+}
 
 
 
